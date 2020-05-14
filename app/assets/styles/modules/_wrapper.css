@@ -5,7 +5,6 @@
   margin: 0rem auto;
   overflow: hidden;
   // background: green;
-
   &--medium {
     max-width: 976px;
   }
