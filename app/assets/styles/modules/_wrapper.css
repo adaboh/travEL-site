@@ -2,11 +2,23 @@
   padding-left: 18px;
   padding-right: 18px;
   max-width: 1236px;
-  margin: 0rem auto;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
-  // background: green;
+ 
+
   &--medium {
     max-width: 976px;
+  }
+
+  &--no-p-until-lg {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atLarge {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
   }
 
   .wrapper {
