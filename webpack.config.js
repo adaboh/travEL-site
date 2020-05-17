@@ -1,5 +1,6 @@
 const path = require('path');
 const postCSSPlugins = [
+  require('postcss-hexrgba'),
   require('postcss-import'),
   require('postcss-mixins'),
   require('postcss-simple-vars'),
