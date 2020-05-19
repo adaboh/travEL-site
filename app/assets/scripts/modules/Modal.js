@@ -25,7 +25,6 @@ class Modal {
 
   closeTheModal() {
     this.modal.classList.remove('modal--is-visible')
-
   }
 
   keyPressHandler(e) {
@@ -57,6 +56,4 @@ class Modal {
     `)
   }
 }
-
-
 export default Modal

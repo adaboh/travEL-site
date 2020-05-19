@@ -75,8 +75,8 @@
           for everyone.</strong>
       </h3>
       <div class="wrapper wrapper--medium wrapper--bm">
-        <img sizes="(min-width: 970px) 976px, 100w"
-          srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w"
+        <img class="lazyload" sizes="(min-width: 970px) 976px, 100w"
+          data-srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w"
           alt="Couple walking down a street.">
       </div>
 
@@ -84,11 +84,11 @@
         <div class="row__medium-4 row__medium-4--lg row__b-m-until-medium">
           <picture>
             <source sizes="404px" media="(min-width: 1020px)"
-              srcset="./assets/images/our-start.jpg 440w, ./assets/images/our-start-hi-dpi.jpg 880w">
+              data-srcset="./assets/images/our-start.jpg 440w, ./assets/images/our-start-hi-dpi.jpg 880w">
             <source sizes="320px" media="(min-width: 800px)"
-              srcset="./assets/images/our-start-portrait.jpg 382w, ./assets/images/our-start-portrait-hi-dpi.jpg 764w">
-            <img
-              srcset="./assets/images/our-start-landscape.jpg 800w, ./assets/images/our-start-landscape-hi-dpi.jpg 1600w"
+              data-srcset="./assets/images/our-start-portrait.jpg 382w, ./assets/images/our-start-portrait-hi-dpi.jpg 764w">
+            <img class="lazyload"
+              data-srcset="./assets/images/our-start-landscape.jpg 800w, ./assets/images/our-start-landscape-hi-dpi.jpg 1600w"
               alt="our founder, Jane Doe">
           </picture>
 
@@ -159,13 +159,15 @@
           </div>
 
         </div>
+
         <div class="row__medium-6">
           <div class="feature-item">
             <img class="feature-item__icon" src="assets/images/icons/wifi.svg">
             <h3 class="feature-item__title">Wi-Fi Waypoints</h3>
             <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve
               mapped
-              out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+              out where local wi-fi spots are and marked them in our app&rsquo;s map view.
+            </p>
           </div>
 
           <div class="feature-item">
@@ -176,7 +178,6 @@
               you
               to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
           </div>
-
         </div>
 
       </div>
@@ -200,8 +201,8 @@
         <div class="row__large-4">
           <div class="testimonial">
             <div class="testimonial__photo">
-              <img sizes="160px"
-                srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w"
+              <img class="lazyload" sizes="160px"
+                data-srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w"
                 alt="Jan Doe">
             </div>
             <h3 class="testimonial__title">Jane Doe</h3>
@@ -219,8 +220,8 @@
         <div class="row__large-4">
           <div class="testimonial">
             <div class="testimonial__photo">
-              <img sizes="160px"
-                srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w"
+              <img class="lazyload" sizes="160px"
+                data-srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w"
                 alt="John Smith">
             </div>
             <h3 class="testimonial__title">John Smith</h3>
@@ -236,8 +237,8 @@
         <div class="row__large-4">
           <div class="testimonial testimonial--last">
             <div class="testimonial__photo">
-              <img sizes="160px"
-                srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w"
+              <img class="lazyload" sizes="160px"
+                data-srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w"
                 alt="cat">
             </div>
             <h3 class="testimonial__title">Cat McKitty</h3>
