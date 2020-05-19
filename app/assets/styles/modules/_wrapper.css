@@ -11,6 +11,10 @@
     max-width: 976px;
   }
 
+  &--narrow {
+    max-width: 476px;
+  }
+
   &--no-p-until-lg {
     padding-left: 0;
     padding-right: 0;

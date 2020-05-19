@@ -54,8 +54,7 @@
       background-color: transparent;
 
       &.is-current-link {
-        color: red;
-        // color: #fabb69;
+        color: #fabb69;
       }
     }
   }

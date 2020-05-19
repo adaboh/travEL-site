@@ -4,7 +4,6 @@
   width: 100%;
   padding: 10px 0;
   transition: background-color 300ms ease-out;
-  // height: auto;
 
   &--is-expanded {
     background-color: rgba(47, 85, 114, .55);
